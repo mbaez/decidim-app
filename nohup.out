@@ -1,0 +1,28 @@
+pg_ctl: another server might be running; trying to start server anyway
+waiting for server to start....2022-10-31 10:56:18.251 -03 [6610] LOG:  starting PostgreSQL 13.3 on x86_64-pc-linux-gnu, compiled by gcc-7 (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2022-10-31 10:56:18.251 -03 [6610] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-10-31 10:56:18.251 -03 [6610] LOG:  listening on IPv6 address "::", port 5432
+2022-10-31 10:56:18.261 -03 [6610] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-31 10:56:18.312 -03 [6613] LOG:  database system was interrupted; last known up at 2022-10-28 20:48:50 -03
+2022-10-31 10:56:18.778 -03 [6613] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-10-31 10:56:18.787 -03 [6613] LOG:  redo starts at 8/64851740
+2022-10-31 10:56:18.787 -03 [6613] LOG:  invalid record length at 8/64851828: wanted 24, got 0
+2022-10-31 10:56:18.787 -03 [6613] LOG:  redo done at 8/648517F0
+2022-10-31 10:56:18.850 -03 [6610] LOG:  database system is ready to accept connections
+ done
+server started
+pg_ctl: another server might be running; trying to start server anyway
+waiting for server to start....2022-11-01 10:26:39.773 -03 [22074] LOG:  starting PostgreSQL 13.3 on x86_64-pc-linux-gnu, compiled by gcc-7 (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2022-11-01 10:26:39.774 -03 [22074] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-11-01 10:26:39.774 -03 [22074] LOG:  listening on IPv6 address "::", port 5432
+2022-11-01 10:26:39.787 -03 [22074] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-11-01 10:26:39.830 -03 [22076] LOG:  database system was interrupted; last known up at 2022-10-31 19:41:28 -03
+2022-11-01 10:26:40.307 -03 [22076] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-11-01 10:26:40.325 -03 [22076] LOG:  redo starts at 8/6492FB48
+2022-11-01 10:26:40.325 -03 [22076] LOG:  invalid record length at 8/6492FC30: wanted 24, got 0
+2022-11-01 10:26:40.325 -03 [22076] LOG:  redo done at 8/6492FBF8
+2022-11-01 10:26:40.399 -03 [22074] LOG:  database system is ready to accept connections
+ done
+server started
+2022-11-01 18:24:05.630 -03 [29482] FATAL:  database "decidim_app_test-1" does not exist
+2022-11-01 18:24:05.630 -03 [29483] FATAL:  database "decidim_app_test-0" does not exist

@@ -1,0 +1,26 @@
+// This is a file that can be overridden by the application in order to override
+// some of the Foundation/Decidim SCSS settings and variables after the default
+// settings have been loaded.
+//
+// To override styles use decidim_application.scss
+//
+// By default this is empty.
+
+:root {
+  --alert: #ec5840;
+  --alert-rgb: 236,88,64;
+  --theme: #ef604d;
+  --theme-rgb: 239,96,77;
+  --primary: #480e69;
+  --primary-rgb: 59,69,87;
+  --success: #57d685;
+  --success-rgb: 87,214,133;
+  --warning: #ffae00;
+  --warning-rgb: 255,174,0;
+  --highlight: #be6400;
+  --highlight-rgb: 190,100,0;
+  --secondary: #599aa6;
+  --secondary-rgb: 89,154,166;
+  --highlight-alternative: #ff5731;
+  --highlight-alternative-rgb: 255,87,49;
+}

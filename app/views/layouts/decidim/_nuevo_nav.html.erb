@@ -1,0 +1,16 @@
+<!-- nuevo nav!!-->
+<% if main_navbar.blank? %>
+  <%= main_menu.render %>
+<% else %>
+  <nav class="main-nav">
+    <ul>
+      <% main_navbar.each do |menu| %>
+        <li class="main-nav__link">
+          <a href="<%= menu.url %>">
+            <%= menu.label%>
+          </a>
+        </li>
+      <% end %>
+    </ul>
+  </nav>
+<% end %>
